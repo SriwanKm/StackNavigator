@@ -1,12 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function Main() {
     return (
         <View style={styles.container}>
-            <Text>Kookai's Review App!</Text>
-            <StatusBar style="auto" />
+            <Text style={styles.titleText}>Kookai's Review App</Text>
         </View>
     );
 }
@@ -18,4 +16,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    titleText: {
+        fontFamily: 'Cookie',
+        fontSize: 36,
+    }
 });

@@ -1,19 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {useState} from 'react';
+import {StyleSheet, Text, View} from 'react-native';
 import Main from './Components/Main'
+import { useFonts } from 'expo-font'
+
 
 export default function App() {
-  return (
-      <Main />
-  );
-}
+    const [loaded] = useFonts({
+        Cookie: require('./assets/fonts/Cookie-Regular.ttf'),
+        LuckiestGuy: require('./assets/fonts/LuckiestGuy-Regular.ttf')
+    });
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    if (!loaded) {
+        return null;
+    }
+
+    return (
+        <Main/>
+    );
+}
