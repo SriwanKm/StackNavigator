@@ -18,6 +18,6 @@ const styles = StyleSheet.create({
     },
     titleText: {
         fontFamily: 'Cookie',
-        fontSize: 36,
+        fontSize: 38,
     }
 });
