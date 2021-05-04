@@ -17,7 +17,8 @@ const Stack = createStackNavigator();
 export default function App() {
     const [loaded] = useFonts({
         Cookie: require('./assets/fonts/Cookie-Regular.ttf'),
-        LuckiestGuy: require('./assets/fonts/LuckiestGuy-Regular.ttf')
+        LuckiestGuy: require('./assets/fonts/LuckiestGuy-Regular.ttf'),
+        Lora: require('./assets/fonts/Lora-VariableFont_wght.ttf')
     });
 
     if (!loaded) {
