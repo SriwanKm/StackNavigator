@@ -1,23 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
+import {globalStyles} from "../styles/global";
+
 
 export default function Main() {
     return (
-        <View style={styles.container}>
-            <Text style={styles.titleText}>Kookai's Review App</Text>
+        <View style={globalStyles.container}>
+            <Text style={globalStyles.titleText}>Kookai's Review App</Text>
         </View>
-    );
+
+)
+    ;
 }
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    titleText: {
-        fontFamily: 'Cookie',
-        fontSize: 38,
-    }
-});
