@@ -8,7 +8,7 @@ export default function About({navigation}) {
         <View style={globalStyles.container}>
             <Text
                 style={globalStyles.titleText}
-                onPress={() => navigation.navigate('Home')}>
+                onPress={() => navigation.popToTop()}>
                 About page
             </Text>
         </View>

@@ -3,13 +3,13 @@ import {StyleSheet, Text, View} from 'react-native';
 import {globalStyles} from "../styles/global";
 
 
-export default function Main({navigation}) {
+export default function ForestOne({navigation}) {
     return (
         <View style={globalStyles.container}>
             <Text
-                onPress={() => navigation.navigate('ForestOne')}
-                style={globalStyles.titleText}>
-                Kookai's Review App
+                style={globalStyles.titleText}
+                onPress={() => navigation.navigate('About')}>
+                Forest One
             </Text>
         </View>
 
