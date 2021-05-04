@@ -3,13 +3,13 @@ import {StyleSheet, Text, View} from 'react-native';
 import {globalStyles} from "../styles/global";
 
 
-export default function ForestOne({navigation}) {
+export default function Mountain({navigation}) {
     return (
         <View style={globalStyles.container}>
             <Text
                 style={globalStyles.titleText}
-                onPress={() => navigation.navigate('About')}>
-                Forest One
+                onPress={() => navigation.navigate('Garden')}>
+                Mountain
             </Text>
         </View>
 
