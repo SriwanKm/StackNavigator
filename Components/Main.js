@@ -9,7 +9,6 @@ export default function Main() {
             <Text style={globalStyles.titleText}>Kookai's Review App</Text>
         </View>
 
-)
-    ;
+    )
 }
 

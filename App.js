@@ -3,6 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 
 import {StyleSheet, Text, View} from 'react-native';
 import Main from './Components/Main'
+import About from './Components/About'
 import {useFonts} from 'expo-font'
 import {createStackNavigator} from '@react-navigation/stack';
 import 'react-native-gesture-handler'
@@ -24,7 +25,7 @@ export default function App() {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name="Home" component={Main}/>
-                {/*<Stack.Screen name="Notifications" component={Notifications}/>*/}
+                <Stack.Screen name="About" component={About}/>
                 {/*<Stack.Screen name="Profile" component={Profile}/>*/}
                 {/*<Stack.Screen name="Settings" component={Settings}/>*/}
             </Stack.Navigator>
