@@ -33,7 +33,8 @@ export default function Main({navigation}) {
         <ScrollView>
             <View style={globalStyles.container}>
                 <View style={styles.topHead}>
-                    <Text style={styles.topHeadText}><Text>Landscape</Text><Text style={styles.topHeadText2}>Titles</Text></Text>
+                    <Text style={styles.topHeadText}><Text>Landscape</Text><Text
+                        style={styles.topHeadText2}>Titles</Text></Text>
                 </View>
 
 
@@ -63,9 +64,12 @@ export default function Main({navigation}) {
                     <Text>
 
                     </Text>
-                    <View>
-                        <Text>
-
+                    <View style={styles.sectionContainer}>
+                        <Text style={styles.subHeadText}>
+                            Template Information
+                        </Text>
+                        <Text style={styles.content}>
+                            You may use this template in any way you would like, please just leave the link at the bottom to our site in place. In order to add your own pictures, simply insert an image as usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically added to the images. Make sure your image is exactly 750px wide for best results.
                         </Text>
                     </View>
                 </View>
@@ -90,17 +94,19 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: '#ffffff',
     },
-    topHeadText:{
+    topHeadText: {
         color: '#1652B5',
         fontWeight: 'bold',
         fontSize: 36,
         paddingVertical: 15,
     },
-    topHeadText2:{
+    topHeadText2: {
         color: '#092645',
     },
     sub_con: {
         marginHorizontal: 30,
+        backgroundColor: '#ffffff',
+
     },
     navText: {
         // flex: 1,
@@ -122,13 +128,24 @@ const styles = StyleSheet.create({
         // marginBottom: 20,
         // paddingBottom: 360,
     },
-    box_shadow:{
+    box_shadow: {
         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 5 },
+        shadowOffset: {width: 0, height: 5},
         shadowOpacity: 0.8,
         shadowRadius: 8,
-        elevation: 5
-    }
+        elevation: 5,
+    },
+    subHeadText: {
+        paddingHorizontal: 10,
+        paddingVertical: 8,
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: '#133F83'
+    },
+    content: {
+        paddingHorizontal: 10,
+        paddingBottom: 25,
+    },
 })
 
 
