@@ -33,7 +33,7 @@ export default function Main({navigation}) {
         <ScrollView>
             <View style={globalStyles.container}>
                 <View style={styles.topHead}>
-                    <Text>LandscapeTitles</Text>
+                    <Text style={styles.topHeadText}><Text>Landscape</Text><Text style={styles.topHeadText2}>Titles</Text></Text>
                 </View>
 
 
@@ -88,6 +88,16 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: '#ffffff',
+    },
+    topHeadText:{
+        color: '#1652B5',
+        fontWeight: 'bold',
+        fontSize: 36,
+        paddingVertical: 15,
+    },
+    topHeadText2:{
+        color: '#092645',
     },
     sub_con: {
         marginHorizontal: 30,
