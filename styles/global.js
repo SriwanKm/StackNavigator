@@ -19,4 +19,18 @@ export const globalStyles = StyleSheet.create({
         marginBottom: 10,
         backgroundColor: '#2f52af',
     },
+
+    subHeadText: {
+        paddingHorizontal: 10,
+        paddingTop: 25,
+        paddingBottom: 10,
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: '#133F83'
+    },
+    content: {
+        paddingHorizontal: 10,
+        paddingBottom: 25,
+        fontSize: 15,
+    },
 });

@@ -50,9 +50,36 @@ export default function Description({navigation}) {
                     />
                 </View>
                 <View style={styles.sub_con}>
-                    <View style={globalStyles.box_shadow}>
-
-                    </View>
+                    <Text style={globalStyles.subHeadText}>
+                        First Page
+                    </Text>
+                    <Text style={globalStyles.content}>
+                        Home Page - clone version of the template
+                    </Text>
+                    <Text style={globalStyles.subHeadText}>
+                        Second Page
+                    </Text>
+                    <Text style={globalStyles.content}>
+                        This Page - app feather and description
+                    </Text>
+                    <Text style={globalStyles.subHeadText}>
+                        Third Page
+                    </Text>
+                    <Text style={globalStyles.content}>
+                        Forest Page - the page show picture of the forest
+                    </Text>
+                    <Text style={globalStyles.subHeadText}>
+                        Forth Page
+                    </Text>
+                    <Text style={globalStyles.content}>
+                        Mountain Page - the page show picture of the mountain
+                    </Text>
+                    <Text style={globalStyles.subHeadText}>
+                        Fifth Page
+                    </Text>
+                    <Text style={globalStyles.content}>
+                        Garden Page - the page show picture of the garden
+                    </Text>
 
                 </View>
             </View>

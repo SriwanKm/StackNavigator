@@ -68,10 +68,10 @@ export default function Main({navigation}) {
                             <ImageBackground source={image[0]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.subHeadText}>
+                            <Text style={globalStyles.subHeadText}>
                                 Template Information
                             </Text>
-                            <Text style={styles.content}>
+                            <Text style={globalStyles.content}>
                                 You may use this template in any way you would like, please just leave the link at the
                                 bottom to our site in place. In order to add your own pictures, simply insert an image
                                 as
@@ -85,10 +85,10 @@ export default function Main({navigation}) {
                             <ImageBackground source={image[1]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.subHeadText}>
+                            <Text style={globalStyles.subHeadText}>
                                 Template Information
                             </Text>
-                            <Text style={styles.content}>
+                            <Text style={globalStyles.content}>
                                 You may use this template in any way you would like, please just leave the link at the
                                 bottom to our site in place. In order to add your own pictures, simply insert an image
                                 as
@@ -102,10 +102,10 @@ export default function Main({navigation}) {
                             <ImageBackground source={image[2]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.subHeadText}>
+                            <Text style={globalStyles.subHeadText}>
                                 Template Information
                             </Text>
-                            <Text style={styles.content}>
+                            <Text style={globalStyles.content}>
                                 You may use this template in any way you would like, please just leave the link at the
                                 bottom to our site in place. In order to add your own pictures, simply insert an image
                                 as
@@ -119,10 +119,10 @@ export default function Main({navigation}) {
                             <ImageBackground source={image[0]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.subHeadText}>
+                            <Text style={globalStyles.subHeadText}>
                                 Template Information
                             </Text>
-                            <Text style={styles.content}>
+                            <Text style={globalStyles.content}>
                                 You may use this template in any way you would like, please just leave the link at the
                                 bottom to our site in place. In order to add your own pictures, simply insert an image
                                 as
@@ -136,10 +136,10 @@ export default function Main({navigation}) {
                             <ImageBackground source={image[1]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.subHeadText}>
+                            <Text style={globalStyles.subHeadText}>
                                 Template Information
                             </Text>
-                            <Text style={styles.content}>
+                            <Text style={globalStyles.content}>
                                 You may use this template in any way you would like, please just leave the link at the
                                 bottom to our site in place. In order to add your own pictures, simply insert an image
                                 as
@@ -153,10 +153,10 @@ export default function Main({navigation}) {
                             <ImageBackground source={image[2]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.subHeadText}>
+                            <Text style={globalStyles.subHeadText}>
                                 Template Information
                             </Text>
-                            <Text style={styles.content}>
+                            <Text style={globalStyles.content}>
                                 You may use this template in any way you would like, please just leave the link at the
                                 bottom to our site in place. In order to add your own pictures, simply insert an image
                                 as
@@ -227,19 +227,6 @@ const styles = StyleSheet.create({
         // marginHorizontal: 20,
         // marginBottom: 20,
         // paddingBottom: 360,
-    },
-    subHeadText: {
-        paddingHorizontal: 10,
-        paddingTop: 25,
-        paddingBottom: 10,
-        fontSize: 22,
-        fontWeight: 'bold',
-        color: '#133F83'
-    },
-    content: {
-        paddingHorizontal: 10,
-        paddingBottom: 25,
-        fontSize: 15,
     },
 })
 
