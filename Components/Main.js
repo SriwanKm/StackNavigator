@@ -32,6 +32,10 @@ export default function Main({navigation}) {
     return (
         <ScrollView>
             <View style={globalStyles.container}>
+                <View style={styles.topHead}>
+                    <Text>LandscapeTitles</Text>
+                </View>
+
 
                 <View style={styles.navContainer}>
                     <FlatList
@@ -53,8 +57,12 @@ export default function Main({navigation}) {
                     />
                 </View>
                 <View style={styles.sub_con}>
-                    <ImageBackground source={image} style={styles.img}/>
+                    <View style={styles.box_shadow}>
+                        <ImageBackground source={image} style={styles.img}/>
+                    </View>
+                    <Text>
 
+                    </Text>
                     <View>
                         <Text>
 
@@ -72,9 +80,14 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffffff',
         alignItems: 'center',
         justifyContent: 'center',
-        paddingVertical: 10,
+        paddingVertical: 18,
         // paddingBottom: 25,
 
+    },
+    topHead: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     sub_con: {
         marginHorizontal: 30,
@@ -85,7 +98,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         paddingHorizontal: 10,
-        paddingTop: 10,
+        // paddingTop: 10,
         // fontFamily: 'Lora',
     },
     navItem: {
@@ -99,6 +112,13 @@ const styles = StyleSheet.create({
         // marginBottom: 20,
         // paddingBottom: 360,
     },
+    box_shadow:{
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 5 },
+        shadowOpacity: 0.8,
+        shadowRadius: 8,
+        elevation: 5
+    }
 })
 
 
