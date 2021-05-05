@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     sub_con: {
         marginHorizontal: 30,
         marginVertical: 50,
-        backgroundColor: '#ffffff',
+        backgroundColor: '#1164A6',
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 5},
         shadowOpacity: 0.8,

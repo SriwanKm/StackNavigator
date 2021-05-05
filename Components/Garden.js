@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, ImageBackground, StyleSheet, Text, TouchableOpacity, View, ScrollView} from 'react-native';
+import {FlatList, ImageBackground, StyleSheet, Text, TouchableOpacity, View, ScrollView, Button} from 'react-native';
 import {globalStyles} from "../styles/global";
 
 const image = [
@@ -54,7 +54,14 @@ export default function Garden({navigation}) {
                     />
                 </View>
                 <View style={styles.sub_con}>
-                    <View style={styles.box_shadow}>
+                    <View style={globalStyles.nextButtCon}>
+                        <Button
+                            color="#fff"
+                            title='Next Home'
+                            onPress={() => navigation.popToTop()}
+                        />
+                    </View>
+                    <View style={globalStyles.box_shadow}>
                         <ImageBackground source={image[0]} style={styles.img}/>
                     </View>
 
@@ -78,12 +85,12 @@ const styles = StyleSheet.create({
     sub_con: {
         marginHorizontal: 30,
         marginVertical: 50,
-        backgroundColor: '#ffffff',
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
+        // backgroundColor: '#a2c3fd',
+        // shadowColor: '#000',
+        // shadowOffset: {width: 0, height: 5},
+        // shadowOpacity: 0.8,
+        // shadowRadius: 8,
+        // elevation: 5,
 
     },
     navText: {
@@ -106,11 +113,5 @@ const styles = StyleSheet.create({
         // marginBottom: 20,
         // paddingBottom: 360,
     },
-    box_shadow: {
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
-    },
+
 })
