@@ -62,105 +62,108 @@ export default function Main({navigation}) {
                         </View>}
                     />
                 </View>
-                <View style={styles.sub_con}>
-                    <View style={styles.box_shadow}>
-                        <ImageBackground source={image[0]} style={styles.img}/>
-                    </View>
-                    <View style={styles.sectionContainer}>
-                        <Text style={styles.subHeadText}>
-                            Template Information
-                        </Text>
-                        <Text style={styles.content}>
-                            You may use this template in any way you would like, please just leave the link at the
-                            bottom to our site in place. In order to add your own pictures, simply insert an image as
-                            usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
-                            added to the images. Make sure your image is exactly 750px wide for best results.
-                        </Text>
-                    </View>
+                <View style={styles.bgSub_con}>
+                    <View style={styles.sub_con}>
+                        <View style={styles.box_shadow}>
+                            <ImageBackground source={image[0]} style={styles.img}/>
+                        </View>
+                        <View style={styles.sectionContainer}>
+                            <Text style={styles.subHeadText}>
+                                Template Information
+                            </Text>
+                            <Text style={styles.content}>
+                                You may use this template in any way you would like, please just leave the link at the
+                                bottom to our site in place. In order to add your own pictures, simply insert an image
+                                as
+                                usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
+                                added to the images. Make sure your image is exactly 750px wide for best results.
+                            </Text>
+                        </View>
 
 
-
-                    <View style={styles.box_shadow}>
-                        <ImageBackground source={image[1]} style={styles.img}/>
-                    </View>
-                    <View style={styles.sectionContainer}>
-                        <Text style={styles.subHeadText}>
-                            Template Information
-                        </Text>
-                        <Text style={styles.content}>
-                            You may use this template in any way you would like, please just leave the link at the
-                            bottom to our site in place. In order to add your own pictures, simply insert an image as
-                            usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
-                            added to the images. Make sure your image is exactly 750px wide for best results.
-                        </Text>
-                    </View>
-
-
-
-                    <View style={styles.box_shadow}>
-                        <ImageBackground source={image[2]} style={styles.img}/>
-                    </View>
-                    <View style={styles.sectionContainer}>
-                        <Text style={styles.subHeadText}>
-                            Template Information
-                        </Text>
-                        <Text style={styles.content}>
-                            You may use this template in any way you would like, please just leave the link at the
-                            bottom to our site in place. In order to add your own pictures, simply insert an image as
-                            usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
-                            added to the images. Make sure your image is exactly 750px wide for best results.
-                        </Text>
-                    </View>
+                        <View style={styles.box_shadow}>
+                            <ImageBackground source={image[1]} style={styles.img}/>
+                        </View>
+                        <View style={styles.sectionContainer}>
+                            <Text style={styles.subHeadText}>
+                                Template Information
+                            </Text>
+                            <Text style={styles.content}>
+                                You may use this template in any way you would like, please just leave the link at the
+                                bottom to our site in place. In order to add your own pictures, simply insert an image
+                                as
+                                usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
+                                added to the images. Make sure your image is exactly 750px wide for best results.
+                            </Text>
+                        </View>
 
 
-
-                    <View style={styles.box_shadow}>
-                        <ImageBackground source={image[0]} style={styles.img}/>
-                    </View>
-                    <View style={styles.sectionContainer}>
-                        <Text style={styles.subHeadText}>
-                            Template Information
-                        </Text>
-                        <Text style={styles.content}>
-                            You may use this template in any way you would like, please just leave the link at the
-                            bottom to our site in place. In order to add your own pictures, simply insert an image as
-                            usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
-                            added to the images. Make sure your image is exactly 750px wide for best results.
-                        </Text>
-                    </View>
-
-
-
-                    <View style={styles.box_shadow}>
-                        <ImageBackground source={image[1]} style={styles.img}/>
-                    </View>
-                    <View style={styles.sectionContainer}>
-                        <Text style={styles.subHeadText}>
-                            Template Information
-                        </Text>
-                        <Text style={styles.content}>
-                            You may use this template in any way you would like, please just leave the link at the
-                            bottom to our site in place. In order to add your own pictures, simply insert an image as
-                            usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
-                            added to the images. Make sure your image is exactly 750px wide for best results.
-                        </Text>
-                    </View>
+                        <View style={styles.box_shadow}>
+                            <ImageBackground source={image[2]} style={styles.img}/>
+                        </View>
+                        <View style={styles.sectionContainer}>
+                            <Text style={styles.subHeadText}>
+                                Template Information
+                            </Text>
+                            <Text style={styles.content}>
+                                You may use this template in any way you would like, please just leave the link at the
+                                bottom to our site in place. In order to add your own pictures, simply insert an image
+                                as
+                                usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
+                                added to the images. Make sure your image is exactly 750px wide for best results.
+                            </Text>
+                        </View>
 
 
+                        <View style={styles.box_shadow}>
+                            <ImageBackground source={image[0]} style={styles.img}/>
+                        </View>
+                        <View style={styles.sectionContainer}>
+                            <Text style={styles.subHeadText}>
+                                Template Information
+                            </Text>
+                            <Text style={styles.content}>
+                                You may use this template in any way you would like, please just leave the link at the
+                                bottom to our site in place. In order to add your own pictures, simply insert an image
+                                as
+                                usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
+                                added to the images. Make sure your image is exactly 750px wide for best results.
+                            </Text>
+                        </View>
 
-                    <View style={styles.box_shadow}>
-                        <ImageBackground source={image[2]} style={styles.img}/>
-                    </View>
-                    <View style={styles.sectionContainer}>
-                        <Text style={styles.subHeadText}>
-                            Template Information
-                        </Text>
-                        <Text style={styles.content}>
-                            You may use this template in any way you would like, please just leave the link at the
-                            bottom to our site in place. In order to add your own pictures, simply insert an image as
-                            usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
-                            added to the images. Make sure your image is exactly 750px wide for best results.
-                        </Text>
+
+                        <View style={styles.box_shadow}>
+                            <ImageBackground source={image[1]} style={styles.img}/>
+                        </View>
+                        <View style={styles.sectionContainer}>
+                            <Text style={styles.subHeadText}>
+                                Template Information
+                            </Text>
+                            <Text style={styles.content}>
+                                You may use this template in any way you would like, please just leave the link at the
+                                bottom to our site in place. In order to add your own pictures, simply insert an image
+                                as
+                                usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
+                                added to the images. Make sure your image is exactly 750px wide for best results.
+                            </Text>
+                        </View>
+
+
+                        <View style={styles.box_shadow}>
+                            <ImageBackground source={image[2]} style={styles.img}/>
+                        </View>
+                        <View style={styles.sectionContainer}>
+                            <Text style={styles.subHeadText}>
+                                Template Information
+                            </Text>
+                            <Text style={styles.content}>
+                                You may use this template in any way you would like, please just leave the link at the
+                                bottom to our site in place. In order to add your own pictures, simply insert an image
+                                as
+                                usual, and just add class=&quot;picture&quot; to each image. The shadow is automatically
+                                added to the images. Make sure your image is exactly 750px wide for best results.
+                            </Text>
+                        </View>
                     </View>
                 </View>
             </View>
@@ -213,6 +216,9 @@ const styles = StyleSheet.create({
     },
     navItem: {
         marginHorizontal: 10,
+    },
+    bgSub_con: {
+        backgroundColor: '#1164A6',
     },
     img: {
         flex: 1,
