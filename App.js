@@ -8,22 +8,22 @@ import Forest from './Components/Forest'
 import Mountain from './Components/Mountain'
 import Garden from './Components/Garden'
 
-import {useFonts} from 'expo-font'
+// import {useFonts} from 'expo-font'
 import {createStackNavigator} from '@react-navigation/stack';
 import 'react-native-gesture-handler'
 
 const Stack = createStackNavigator();
 
 export default function App() {
-    const [loaded] = useFonts({
-        Cookie: require('./assets/fonts/Cookie-Regular.ttf'),
-        LuckiestGuy: require('./assets/fonts/LuckiestGuy-Regular.ttf'),
-        Lora: require('./assets/fonts/Lora-VariableFont_wght.ttf')
-    });
-
-    if (!loaded) {
-        return null;
-    }
+    // const [loaded] = useFonts({
+    //     Cookie: require('./assets/fonts/Cookie-Regular.ttf'),
+    //     LuckiestGuy: require('./assets/fonts/LuckiestGuy-Regular.ttf'),
+    //     Lora: require('./assets/fonts/Lora-VariableFont_wght.ttf')
+    // });
+    //
+    // if (!loaded) {
+    //     return null;
+    // }
 
     return (
 
