@@ -66,9 +66,6 @@ export default function Main({navigation}) {
                     <View style={styles.box_shadow}>
                         <ImageBackground source={image[0]} style={styles.img}/>
                     </View>
-                    <Text>
-
-                    </Text>
                     <View style={styles.sectionContainer}>
                         <Text style={styles.subHeadText}>
                             Template Information
@@ -80,13 +77,12 @@ export default function Main({navigation}) {
                             added to the images. Make sure your image is exactly 750px wide for best results.
                         </Text>
                     </View>
+
+
+
                     <View style={styles.box_shadow}>
                         <ImageBackground source={image[1]} style={styles.img}/>
                     </View>
-                    <Text>
-
-
-                    </Text>
                     <View style={styles.sectionContainer}>
                         <Text style={styles.subHeadText}>
                             Template Information
@@ -98,13 +94,12 @@ export default function Main({navigation}) {
                             added to the images. Make sure your image is exactly 750px wide for best results.
                         </Text>
                     </View>
+
+
+
                     <View style={styles.box_shadow}>
                         <ImageBackground source={image[2]} style={styles.img}/>
                     </View>
-                    <Text>
-
-
-                    </Text>
                     <View style={styles.sectionContainer}>
                         <Text style={styles.subHeadText}>
                             Template Information
@@ -116,14 +111,12 @@ export default function Main({navigation}) {
                             added to the images. Make sure your image is exactly 750px wide for best results.
                         </Text>
                     </View>
+
 
 
                     <View style={styles.box_shadow}>
                         <ImageBackground source={image[0]} style={styles.img}/>
                     </View>
-                    <Text>
-
-                    </Text>
                     <View style={styles.sectionContainer}>
                         <Text style={styles.subHeadText}>
                             Template Information
@@ -135,14 +128,12 @@ export default function Main({navigation}) {
                             added to the images. Make sure your image is exactly 750px wide for best results.
                         </Text>
                     </View>
+
 
 
                     <View style={styles.box_shadow}>
                         <ImageBackground source={image[1]} style={styles.img}/>
                     </View>
-                    <Text>
-
-                    </Text>
                     <View style={styles.sectionContainer}>
                         <Text style={styles.subHeadText}>
                             Template Information
@@ -156,12 +147,10 @@ export default function Main({navigation}) {
                     </View>
 
 
+
                     <View style={styles.box_shadow}>
                         <ImageBackground source={image[2]} style={styles.img}/>
                     </View>
-                    <Text>
-
-                    </Text>
                     <View style={styles.sectionContainer}>
                         <Text style={styles.subHeadText}>
                             Template Information
@@ -207,7 +196,11 @@ const styles = StyleSheet.create({
     sub_con: {
         marginHorizontal: 30,
         backgroundColor: '#ffffff',
-
+        shadowColor: '#000',
+        shadowOffset: {width: 0, height: 5},
+        shadowOpacity: 0.8,
+        shadowRadius: 8,
+        elevation: 5,
     },
     navText: {
         // flex: 1,
@@ -238,7 +231,8 @@ const styles = StyleSheet.create({
     },
     subHeadText: {
         paddingHorizontal: 10,
-        paddingVertical: 8,
+        paddingTop: 25,
+        paddingBottom: 10,
         fontSize: 22,
         fontWeight: 'bold',
         color: '#133F83'
