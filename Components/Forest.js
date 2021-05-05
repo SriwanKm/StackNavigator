@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, ImageBackground, StyleSheet, Text, TouchableOpacity, View, ScrollView} from 'react-native';
+import {FlatList, ImageBackground, StyleSheet, Text, TouchableOpacity, View, ScrollView, Button} from 'react-native';
 import {globalStyles} from "../styles/global";
 
 const image = [
@@ -53,7 +53,14 @@ export default function Forest({navigation}) {
                     />
                 </View>
                 <View style={styles.sub_con}>
-                    <View style={styles.box_shadow}>
+                    <View style={globalStyles.nextButtCon}>
+                        <Button
+                            color="#fff"
+                            title='Next Mountain'
+                            onPress={() => navigation.navigate('Mountain')}
+                        />
+                    </View>
+                    <View style={globalStyles.box_shadow}>
                         <ImageBackground source={image[0]} style={styles.img}/>
                     </View>
 
@@ -77,13 +84,6 @@ const styles = StyleSheet.create({
     sub_con: {
         marginVertical: 50,
         marginHorizontal: 30,
-        backgroundColor: '#1164A6',
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
-
     },
     navText: {
         // flex: 1,
@@ -104,12 +104,5 @@ const styles = StyleSheet.create({
         // marginHorizontal: 20,
         // marginBottom: 20,
         // paddingBottom: 360,
-    },
-    box_shadow: {
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
     },
 })

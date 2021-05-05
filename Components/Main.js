@@ -64,7 +64,7 @@ export default function Main({navigation}) {
                 </View>
                 <View style={styles.bgSub_con}>
                     <View style={styles.sub_con}>
-                        <View style={styles.box_shadow}>
+                        <View style={globalStyles.box_shadow}>
                             <ImageBackground source={image[0]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
@@ -81,7 +81,7 @@ export default function Main({navigation}) {
                         </View>
 
 
-                        <View style={styles.box_shadow}>
+                        <View style={globalStyles.box_shadow}>
                             <ImageBackground source={image[1]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
@@ -98,7 +98,7 @@ export default function Main({navigation}) {
                         </View>
 
 
-                        <View style={styles.box_shadow}>
+                        <View style={globalStyles.box_shadow}>
                             <ImageBackground source={image[2]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
@@ -115,7 +115,7 @@ export default function Main({navigation}) {
                         </View>
 
 
-                        <View style={styles.box_shadow}>
+                        <View style={globalStyles.box_shadow}>
                             <ImageBackground source={image[0]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
@@ -132,7 +132,7 @@ export default function Main({navigation}) {
                         </View>
 
 
-                        <View style={styles.box_shadow}>
+                        <View style={globalStyles.box_shadow}>
                             <ImageBackground source={image[1]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
@@ -149,7 +149,7 @@ export default function Main({navigation}) {
                         </View>
 
 
-                        <View style={styles.box_shadow}>
+                        <View style={globalStyles.box_shadow}>
                             <ImageBackground source={image[2]} style={styles.img}/>
                         </View>
                         <View style={styles.sectionContainer}>
@@ -227,13 +227,6 @@ const styles = StyleSheet.create({
         // marginHorizontal: 20,
         // marginBottom: 20,
         // paddingBottom: 360,
-    },
-    box_shadow: {
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
     },
     subHeadText: {
         paddingHorizontal: 10,

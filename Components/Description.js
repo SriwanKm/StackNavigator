@@ -50,7 +50,7 @@ export default function Description({navigation}) {
                     />
                 </View>
                 <View style={styles.sub_con}>
-                    <View style={styles.box_shadow}>
+                    <View style={globalStyles.box_shadow}>
 
                     </View>
 
@@ -94,13 +94,7 @@ const styles = StyleSheet.create({
     navItem: {
         marginHorizontal: 10,
     },
-    box_shadow: {
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
-    },
+
 })
 
 

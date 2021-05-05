@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, ImageBackground, StyleSheet, Text, TouchableOpacity, View, ScrollView} from 'react-native';
+import {FlatList, ImageBackground, StyleSheet, Text, TouchableOpacity, View, ScrollView, Button} from 'react-native';
 import {globalStyles} from "../styles/global";
 
 const image = [
@@ -54,7 +54,14 @@ export default function Mountain({navigation}) {
                     />
                 </View>
                 <View style={styles.sub_con}>
-                    <View style={styles.box_shadow}>
+                    <View style={globalStyles.nextButtCon}>
+                        <Button
+                            color="#fff"
+                            title='Next Garden'
+                            onPress={() => navigation.navigate('Garden')}
+                        />
+                    </View>
+                    <View style={globalStyles.box_shadow}>
                         <ImageBackground source={image[0]} style={styles.img}/>
                     </View>
 
@@ -78,12 +85,6 @@ const styles = StyleSheet.create({
     sub_con: {
         marginHorizontal: 30,
         marginVertical: 50,
-        backgroundColor: '#1164A6',
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
 
     },
     navText: {
@@ -105,12 +106,5 @@ const styles = StyleSheet.create({
         // marginHorizontal: 20,
         // marginBottom: 20,
         // paddingBottom: 360,
-    },
-    box_shadow: {
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 5},
-        shadowOpacity: 0.8,
-        shadowRadius: 8,
-        elevation: 5,
     },
 })
